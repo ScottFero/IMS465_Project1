@@ -1,0 +1,13 @@
+Dev Log 1: Sprint 1 Reflection
+Date: 10/26/2026
+Author: Scott Fero
+
+Features & Completed Targets:
+- Added player rotation (A & D now rotate the player left and right by 90 degrees, will smooth this out later)
+- Blades now can kill enemies (Will change to interface later to add environmental damage and other enemy types)
+- Blades now partially spawn with rotation based on the player's forward vector (the 90 degree interval is broken, but front and back work fine)
+
+Hurdles:
+- Getting the blades to spawn according to the player's rotation. I'm not used to working with vectors in blueprint form so this still doesn't work entirely, but I did get 180 degrees of rotation to work without any issues.
+- Getting the blades to deal damage was easy, I plan to later revise this to be interface-based.
+- I had to adjust scope to scale down my player movement plans to again focus on just the bare blades mechanic due to more work than I anticipated from other classes.
